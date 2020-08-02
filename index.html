@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        *{margin:0}
+        main{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:100%;
+            text-align: center;
+        }
+        h2{
+            text-transform: uppercase;
+            font-size: 3rem;
+            
+        }
+        #value{
+            font-size:80px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .btn{
+            margin:10px;
+            padding: 10px;
+            background-color:#000;
+            color:white;
+            text-transform: uppercase;
+            border:none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2> counter </h2>
+        <br>
+        <div id="value">0</div>
+        <button class="btn decrease">decrease</button>
+        <button class="btn reset">reset</button>
+        <button class="btn increase">increase</button>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
